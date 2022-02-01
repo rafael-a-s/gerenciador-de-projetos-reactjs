@@ -28,7 +28,7 @@ function createPost(project){
     <div className={styles.newproject_container}>
       <h1 >Criar projeto</h1>
       <p>Crie seu projeto para depois adicionar os serviços</p>
-      <ProjectForm hanleSubmit={createPost} btnText='Criar projeto'/>
+      <ProjectForm handleSubmit={createPost} btnText='Criar projeto'/>
 
     </div>
   )
